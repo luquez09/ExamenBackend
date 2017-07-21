@@ -1,0 +1,48 @@
+
+
+/*Prueba numero 1*/
+.contenedor1{
+    width: 90%;
+    background-color: darkorange;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+ .info{
+    width: 95%;
+    background-color: royalblue;
+    margin: 10px auto;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+
+ }
+
+.con-datos{
+    width: 50%;
+    background-color: red;
+    margin: 0 auto;
+    border: orange;
+    display: flex;
+}
+
+.img{
+    width: 50%;
+    height: 100%;
+    background-color: gainsboro;
+    padding: 5px;
+    box-sizing: content-box;
+    border: 1px solid white;
+}
+
+img{
+    width: 100%;
+}
+
+ .dato{
+    width: 50%;
+    background-color: gold;
+    border:  1px solid white;
+    padding: 5px;
+    box-sizing: content-box;
+ }

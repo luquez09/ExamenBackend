@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+ 
+  <link type="text/css" rel="stylesheet" href="css/ion.rangeSlider.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/ion.rangeSlider.skinFlat.css"  media="screen,projection"/>
+  <link rel="stylesheet" type="text/css" href="css/resultados.css"/>
+  <title>Formulario</title>
+</head>
+
+<body> 
+    <div id="contenedor">
+      <header>
+        <h1>BUSCADOR</h1>
+      </header>
+
+      <nav id="cajaFiltros">
+        <div><h3>Realiza una búsqueda personalizada</h3></div>
+
+        <div class="filtroCIudad filtro">
+           <p>Filtro Ciudad</p>
+           <select id="selectCiudad"> </select>
+        </div>
+
+        <div class="filtroTipo filtro">
+          <p>Filtro Tipo</p>
+          <select id="selectTipo"> </select>
+        </div>
+
+        <div class="filtroPrecio filtro">
+          <label for="rangoPrecio">Precio:</label>
+          <input type="text" id="rangoPrecio" name="precio" value="" />
+        </div>
+
+          <button id="buscar" onclick="opciones()">BUSCAR</button>
+      </nav>
+
+      <div id="contBusqueda">
+        <h2>Resultado Busqueda</h2>
+        <button onclick="agregar()">MOSTRAR TODOS</button>
+      </div>
+    </div>
+          
+  <div id="contenedor1" class="resultado"></div>
+        
+
+  <script type="text/javascript" src="js/jquery-3.0.0.js"></script>
+  <script type="text/javascript" src="js/ion.rangeSlider.min.js"></script>
+  <script type="text/javascript" src="js/cargarlista.js"></script>
+  <script type="text/javascript" src="js/busqueda.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+  </script>
+</body>
+</html>
